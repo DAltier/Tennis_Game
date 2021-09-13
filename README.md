@@ -10,6 +10,6 @@ The game was developed using JavaScript, HTML5, and CSS3.
 
 <img src="https://github.com/DAltier/Tennis_Game/blob/main/screenshot.png" width="800">
 
-The playes scores are displayed on the screen throughout the game.
+The player scores are displayed on the screen throughout the game.
 
 The first player to score 3 points, wins.
