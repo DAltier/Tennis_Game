@@ -1,5 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <title>Table Tennis</title>
+</head>
+
+<body>
+  <h2>Table Tennis</h2>
+  <h3>How to Play: Use a mouse to control the left side paddle.</h3>
   <canvas id="gameCanvas" width="800" height="600"></canvas>
   <link rel="stylesheet" href="Style.css">
 
@@ -53,7 +63,7 @@
       canvas = document.getElementById('gameCanvas');
       canvasContext = canvas.getContext('2d');
 
-      canvasContext.font = "30px Georgia";
+      canvasContext.font = "30px Courier New";
 
       var framesPerSecond = 30;
       setInterval(function() {
@@ -188,4 +198,5 @@
 
   </script>
 
+</body>
 </html>
